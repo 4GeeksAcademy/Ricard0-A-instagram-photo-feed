@@ -1,0 +1,143 @@
+body {
+    height: 3000px;
+    margin: 200px;
+    background-color: black;
+
+
+
+}
+
+
+main {
+    background-color: white;
+}
+
+p {
+    font-family: "Roboto Serif";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+
+
+.post_header {
+    display: flex;
+    height: 90px;
+}
+
+
+.header_izq {
+    height: 700px;
+    width: 700px;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+
+.header_izq div {
+    margin: 15px 0 15px 15px;
+    margin-bottom: 20px;
+}
+
+
+.header_derecha {
+    height: 700px;
+    width: 700px;
+    /* background-color: blue; */
+
+}
+
+
+
+/* EMPEZAMOS A MODIFICAR LA PAGINA  */
+
+/* Header izquierdo  */
+
+
+
+
+.fa-brands {
+    font-size: 70px;
+}
+
+
+.icono_letra {
+    position: relative;
+    top: -15px;
+    margin-left: 20px;
+
+}
+
+
+
+.icono_letra :last-child {
+    margin-top: 0px;
+}
+
+
+/* Header derecho  */
+
+.header_derecha div {
+    float: right;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+
+
+/* Empieza Post-Body  */
+
+
+.post_body {
+    margin-top: 20px;
+    height: 600px;
+    position: relative;
+}
+
+
+
+
+.imagen img {
+    height: 450px;
+    width: 100%;
+}
+
+
+.iconos {
+    position: relative;
+    font-size: 50px;
+    height: 700px;
+    width: 950px;
+    margin: 20px;
+
+
+}
+
+.fa-bookmark {
+    margin-right: 40px;
+    float: right;
+}
+
+
+
+
+/* Empieza el Futah  */
+
+.post_footer {
+    height: 170px;
+    margin-top: -50px;
+    margin-left: 18px;
+    margin-right: 14px;
+    /* text-align: justify; */
+
+}
+
+.post_footer :nth-child(3) {
+    margin-top: -12px;
+}
