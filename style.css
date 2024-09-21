@@ -1,15 +1,20 @@
 body {
-    height: 3000px;
-    margin: 200px;
-    background-color: black;
 
+    background-color: black;
+    /* Fixed */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
 
 
 }
 
 
-main {
+.main {
     background-color: white;
+    height: 100%;
+    width: 80%;
 }
 
 p {
@@ -33,7 +38,6 @@ p {
 .header_izq {
     height: 700px;
     width: 700px;
-    /* background-color: red; */
     display: flex;
 
 }
@@ -48,15 +52,12 @@ p {
 .header_derecha {
     height: 700px;
     width: 700px;
-    /* background-color: blue; */
 
 }
 
 
 
-/* EMPEZAMOS A MODIFICAR LA PAGINA  */
 
-/* Header izquierdo  */
 
 
 
@@ -80,7 +81,6 @@ p {
 }
 
 
-/* Header derecho  */
 
 .header_derecha div {
     float: right;
@@ -91,7 +91,6 @@ p {
 
 
 
-/* Empieza Post-Body  */
 
 
 .post_body {
@@ -110,7 +109,6 @@ p {
 
 
 .iconos {
-    position: relative;
     font-size: 50px;
     height: 700px;
     width: 950px;
@@ -120,21 +118,19 @@ p {
 }
 
 .fa-bookmark {
-    margin-right: 40px;
-    float: right;
+    position: absolute;
+    right: 20px;
 }
 
 
 
 
-/* Empieza el Futah  */
 
 .post_footer {
     height: 170px;
     margin-top: -50px;
     margin-left: 18px;
     margin-right: 14px;
-    /* text-align: justify; */
 
 }
 
